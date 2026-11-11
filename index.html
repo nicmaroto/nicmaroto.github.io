@@ -1,259 +1,142 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nicolas Maroto</title>
-    <link rel="stylesheet" href="portfolio.css">
-    <link rel="icon" href="images/icon_gold.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
-    <script src="https://mediafiles.botpress.cloud/da24f503-0224-4e66-bd4e-8581c0f1f86c/webchat/config.js" defer></script>
-</head>
-<body>
-    <section class="header">
-        <nav>
-            <a href="portfolio.html">
-                <img src="images/home_new.png" alt="home button">
-            </a>
-            <div class="nav-links">
-                <ul>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#awards">Awards and Certifications</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div class="social_container">
-            <div class="social_buttons">
-                <a href="https://www.linkedin.com/in/nicolas-maroto-b35809267/" target="blank">
-                    <div class="social-icon linkedin">
-                      <i class="fa fa-linkedin" aria-hidden="true"></i>
-                    </div> 
-                </a>
-                <a href="mailto:nicolasmarotok@gmail.com" target="blank">
-                    <div class="social-icon gmail">
-                      <i class="fa fa-google" aria-hidden="true"></i>
-                    </div>
-                </a>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#080808" />
+    <meta name="description" content="Nicolas Maroto - UNB mechanical engineering student pursuing the Biomedical Engineering Option, robotics builder, and Student Executive Chair of the UNB Fencing Club." />
+    <title>Nicolas Maroto - Mechanical & Biomedical Engineering</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="icon" href="assets/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="site-backdrop" aria-hidden="true"></div>
+
+    <header class="site-header" id="top">
+      <nav class="glass-nav" aria-label="Main navigation">
+        <div class="nav-links" id="nav-links">
+          <span class="nav-slider" aria-hidden="true"></span>
+          <a href="#home" class="nav-link is-active" aria-current="location">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#work" class="nav-link">Projects</a>
+          <a href="#leadership" class="nav-link">Leadership</a>
+          <a href="#certifications" class="nav-link">Certifications</a>
         </div>
-        <div class="header-overlay"></div>
-        <div class="header-overlay-2"></div>
-        <div class="text-box">
-            <h1>Nicolas Maroto</h1>
-            <p>A Portfolio of Talents</p>
-            <a href="#contact" class="hero-btn">Contact Me</a>
-            <a href="images/Resume.pdf" download class="hero-btn" style="margin-left: 15px;">Download Resume</a>
+        <span class="nav-meta">FREDERICTON, NB</span>
+      </nav>
+    </header>
+
+    
+    <aside class="contact-rail" aria-label="Contact Nicolas">
+      <a class="rail-icon" href="https://www.linkedin.com/in/nicmaroto?utm_source=share_via&amp;utm_content=profile&amp;utm_medium=member_ios" target="_blank" rel="noopener noreferrer" aria-label="Nicolas on LinkedIn" title="LinkedIn">
+        <span class="linkedin-lettermark" aria-hidden="true">in</span>
+      </a>
+      <a class="rail-icon outlook-icon" href="mailto:nicolas.maroto@outlook.com" aria-label="Email Nicolas at nicolas.maroto@outlook.com" title="Outlook · nicolas.maroto@outlook.com">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="5" width="14" height="14" rx="2.3"/><path d="M16.5 8h4a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-4M4.7 9.1l4.8 3.8 4.8-3.8"/><path d="M4.7 15.8 8 13m6.3 2.8L11 13"/></svg>
+      </a>
+    </aside>
+
+    <main id="main">
+      <section class="hero section-shell" id="home" aria-labelledby="hero-title">
+        <div class="hero-image" role="img" aria-label="Illustrative atmospheric image of a mechanical prosthetic hand, not a photograph of Nicolas's project"></div>
+        <div class="hero-vignette" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow hero-eyebrow"><span class="eyebrow-line"></span> UNIVERSITY OF NEW BRUNSWICK <span class="eyebrow-slash">|</span> PERSONAL PORTFOLIO</p>
+          <h1 id="hero-title" class="hero-name">NICOLAS<br /><span>MAROTO</span></h1>
+          <p class="hero-degree"><strong>BScE</strong><span class="hero-degree-rule" aria-hidden="true"></span><span>Mechanical Engineering <span class="degree-option">/ Biomedical Engineering Option</span></span></p>
+          <div class="hero-actions">
+            <a class="primary-button resume-placeholder" href="assets/Nicolas-Maroto-Resume.pdf" download="Nicolas-Maroto-Resume.pdf">Download my résumé <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v13m-5-5 5 5 5-5M5 20h14"/></svg></a>
+          </div>
         </div>
-    </section>
-    <section class="about" id="about">
-        <div class="about_box">
-            <h2 class="about_title">About Me</h2>
-            <p class="about_description">Fredericton High-School student with a 4.0 CGPA. Enthusiastic app and website developer with an emphasis on user experience and functionality. Passionate about Robotics, Computerized Numerical Control (CNC) machinery operation & programming, 3D modeling, and Artificial Intelligence. I care about advancing our society through technology, sustainability, and diversity & inclusion. In my free time, I enjoy indulging in my interests, such as fencing, reading engineering literature, playing chess, and spending quality time with my family and friends.</p>
+        <div class="hero-bottom" aria-hidden="true"><span class="scroll-rule"></span></div>
+      </section>
+
+      <section class="intro section-shell" id="about" aria-labelledby="about-title">
+        <div class="section-intro reveal">
+          <span class="section-index">01 <span>/</span> ABOUT</span>
+          <h2 id="about-title">About <em>me.</em></h2>
         </div>
-        <div class="about_expand_box">
-            <div class="about_expand">
-                <ul>
-                    <li class="about_expand_item" data-target="education">Education</li>
-                    <li class="about_expand_item" data-target="experience">Experience</li>
-                    <li class="about_expand_item" data-target="volunteering">Volunteering</li>
-                </ul>
+        <div class="about-layout">
+          <div class="journey-panel about-history reveal" aria-label="Education and volunteering history">
+            <div class="journey-tabs" role="tablist" aria-label="Education and volunteering">
+              <span class="journey-slider" aria-hidden="true"></span>
+              <button type="button" class="journey-tab is-selected" role="tab" aria-selected="true" aria-controls="panel-education" id="tab-education" data-tab="education">Education</button>
+              <button type="button" class="journey-tab" role="tab" aria-selected="false" aria-controls="panel-volunteering" id="tab-volunteering" data-tab="volunteering" tabindex="-1">Volunteering</button>
             </div>
-            <div class="content_box">
-                <div class="about_expand_content">
-                    <div class="about_expand_title">Fredericton High School</div>
-                    <div class="about_expand_subtitle">High School Diploma</div>
-                    <div class="about_expand_date">Sep 2023 - Jun 2024</div>
-                    <div class="about_expand_grade">Grade: 12</div>
-                </div>
-                <hr class="solid">
-                <div class="about_expand_content">
-                    <div class="about_expand_title">FCS Innovation Academy STEM Magnet High School</div>
-                    <div class="about_expand_subtitle">High School Diploma, Engineering</div>
-                    <div class="about_expand_date">Aug 2021 - May 2023</div>
-                    <div class="about_expand_grade">Grade: 10th - 11th</div>
-                    <div class="about_expand_description">Activities and societies: Robotics | Fencing | Chess <br>
-                        First Generation Innovation Academy, STEM (Science, Technology, Engineering & Mathematics) High-School in Alpharetta, Georgia, USA, student experienced in the application of the engineering design thinking process.</div>
-                </div>
-                <hr class="solid">
-                <div class="about_expand_content">
-                    <div class="about_expand_title">Alpharetta High School</div>
-                    <div class="about_expand_subtitle">High School Diploma</div>
-                    <div class="about_expand_date">Oct 2020 - May 2021</div>
-                    <div class="about_expand_grade">Grade: 9th</div>
-                </div>
+            <div class="journey-panels" aria-live="polite">
+              <div class="journey-panel-content" role="tabpanel" id="panel-education" aria-labelledby="tab-education">
+                <div class="timeline-item"><span class="timeline-date">2024 - PRESENT</span><div><h3>University of New Brunswick</h3><p>Bachelor of Science in Engineering (BScE) · Mechanical Engineering, Biomedical Engineering Option</p><p class="timeline-details"><strong>Activities:</strong> Student Executive Chair, UNB Fencing Club.</p><span>Fredericton, New Brunswick</span></div></div>
+                <div class="timeline-item"><span class="timeline-date">2023 - 2024</span><div><h3>Fredericton High School</h3><p>High School Diploma</p><p class="timeline-details"><strong>Activities:</strong> President, Professional Development Club; Fencing.</p><p class="timeline-details"><strong>Recognition:</strong> Graduated with honours.</p><span>Fredericton, New Brunswick</span></div></div>
+                <div class="timeline-item"><span class="timeline-date">2021 - 2023</span><div><h3>FCS Innovation Academy STEM Magnet High School</h3><p>Engineering-focused secondary education · Grades 10-11</p><p class="timeline-details"><strong>Activities:</strong> Robotics, Fencing, Chess.</p><p class="timeline-details"><strong>Recognition:</strong> Talented and Gifted (TAG) program; first-generation Innovation Academy cohort.</p><span>Alpharetta, Georgia</span></div></div>
+                <div class="timeline-item"><span class="timeline-date">2020 - 2021</span><div><h3>Alpharetta High School</h3><p>Secondary education · Grade 9</p><p class="timeline-details"><strong>Recognition:</strong> R.I.C.H. Raider Award.</p><span>Alpharetta, Georgia</span></div></div>
+              </div>
+              <div class="journey-panel-content" role="tabpanel" id="panel-volunteering" aria-labelledby="tab-volunteering" hidden>
+                <div class="timeline-item"><span class="timeline-date">2026</span><div><h3>Special Olympics Canada</h3><p>Volunteering with the organization while deepening my interest in inclusive sport and accessibility.</p><span>Fredericton, New Brunswick</span></div></div>
+                <div class="timeline-item"><span class="timeline-date">2022 - 2023</span><div><h3>Food4Lives · Outreach Committee</h3><p>Developed connections between Food4Lives, other nonprofit organizations, and potential volunteers to support community outreach.</p><span>Alpharetta, Georgia</span></div></div>
+                <div class="timeline-item"><span class="timeline-date">2021</span><div><h3>Peer Tutor · Alpharetta High School</h3><p>Helped Spanish-speaking students learn essential Microsoft Word and PowerPoint skills.</p><span>Alpharetta, Georgia</span></div></div>
+              </div>
             </div>
-            <div class="content_box">
-                <div class="about_expand_content">
-                    <div class="about_expand_title">Member of the Innovation Academy Robotics Finance department</div>
-                    <div class="about_expand_subtitle">Innovation Academy Robotics · Part-time</div>
-                    <div class="about_expand_date">Sep 2021 - Jan 2022 · 5 mos</div>
-                    <div class="about_expand_location">Alpharetta, Georgia, United States · On-site</div>
-                    <div class="about_expand_description">Managed the team's budget and funding to provide the necessary equipment to succeed at Georgia state competitions.</div>
-                </div>
-                <hr class="solid">
-                <div class="about_expand_content" style="margin-bottom: 200px;">
-                    <div class="about_expand_title">Student Intern</div>
-                    <div class="about_expand_subtitle">Mondi Group · Internship</div>
-                    <div class="about_expand_date">Oct 2018 · 1 mo</div>
-                    <div class="about_expand_location">Wolfsberg, Carinthia, Austria · On-site</div>
-                    <div class="about_expand_description">Update and conversion of documents and processes into electronic formats like Word and PowerPoint.</div>
-                </div>
-            </div>
-            <div class="content_box">
-                <div class="about_expand_content">
-                    <div class="about_expand_title">Outreach Committee</div>
-                    <div class="about_expand_subtitle">Food4lives</div>
-                    <div class="about_expand_date">Dec 2022 - Present · 11 mos</div>
-                    <div class="about_expand_location">Animal Welfare</div>
-                    <div class="about_expand_description">In charge of building collaborating networks between non-profit organizations, potential volunteers, and Food4Lives.</div>
-                </div>
-                <hr class="solid">
-                <div class="about_expand_content">
-                    <div class="about_expand_title">Peer Tutor</div>
-                    <div class="about_expand_subtitle">Alpharetta High School</div>
-                    <div class="about_expand_date">Jan 2021 · 1 mo</div>
-                    <div class="about_expand_location">Education</div>
-                    <div class="about_expand_description">Taught the basic functionalities and use of Microsoft Word and PowerPoint to Spanish speaking students at the Alpharetta High School.</div>
-                </div>
-            </div>
+          </div>
         </div>
-    </section>
-    <section class="portfolio" id="portfolio">
-        <div class="portfolio_title_box">
-            <div class="portfolio_title"><span style="text-decoration: underline #ffd700;">My</span> Portfolio</div>
-            <div class="portfolio_description">The Spotlight of My Finest Work</div>
+        <div class="skills-heading reveal"><span class="micro-label">SKILLS IN PRACTICE</span></div>
+        <div class="about-extras reveal" role="list" aria-label="Technical skills and languages">
+          <div class="about-extra" role="listitem"><span class="skill-index" aria-hidden="true">01</span><span>CAD &amp; FABRICATION</span><ul class="skill-items"><li>Siemens NX</li><li>SolidWorks</li><li>Fusion 360</li><li>Technical drawings</li><li>3D printing</li><li>CNC machining</li><li>Woodworking</li><li>Metalworking</li></ul></div>
+          <div class="about-extra" role="listitem"><span class="skill-index" aria-hidden="true">02</span><span>PROGRAMMING</span><ul class="skill-items"><li>Python</li><li>HTML</li><li>CSS</li><li>JavaScript</li><li>OpenCV</li><li>YOLOv4</li><li>CustomTkinter</li></ul></div>
+          <div class="about-extra" role="listitem"><span class="skill-index" aria-hidden="true">03</span><span>ELECTRONICS &amp; CIRCUITS</span><ul class="skill-items"><li>EasyEDA</li><li>Schematic design</li><li>Circuit simulation</li><li>Analog circuit design</li></ul></div>
+          <div class="about-extra" role="listitem"><span class="skill-index" aria-hidden="true">04</span><span>DATA &amp; COMPUTATION</span><ul class="skill-items"><li>MATLAB</li><li>Minitab</li><li>Excel</li><li>Numerical methods</li></ul></div>
+          <div class="about-extra" role="listitem"><span class="skill-index" aria-hidden="true">05</span><span>LANGUAGES</span><ul class="skill-items"><li>English<small>Native / bilingual</small></li><li>German<small>Native / bilingual</small></li><li>Spanish<small>Native / bilingual</small></li><li>French<small>Limited working proficiency</small></li></ul></div>
         </div>
-        <div class="project_box">
-            <div class="project_container" style="background-image: url(images/p1-ai.png);">
-                <div class="project-info">
-                    <div class="project_title">Aria AI</div>
-                    <div class="project_description">A peronsal chatbot assistant integrated into a pc application for windows.</div>
-                </div>
-                <a href="#" class="project_button">View Project</a>
-            </div>
-            <div class="project_container" style="background-image: url(images/project_dummy_6.jpg);">
-                <div class="project-info">
-                    <div class="project_title">Autonomous Piano</div>
-                    <div class="project_description">Sponsored by Yamaha music, I designed and build a robot capable of autonomously playing the piano as well as letting users control the robot through a game controller.</div>
-                </div>
-                <a href="#" class="project_button">View Project</a>
-            </div>
-            <div class="project_container" style="background-image: url(images/project_dummy_6.jpg);">
-                <div class="project-info">
-                    <div class="project_title">Project 3</div>
-                    <div class="project_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae facilis est necessitatibus, sapiente aspernatur maxime.</div>                   
-                </div>
-                <a href="#" class="project_button">View Project</a>
-            </div>
-            <div class="project_container" style="background-image: url(images/project_dummy_6.jpg);">
-                <div class="project-info">
-                    <div class="project_title">Project 4</div>
-                    <div class="project_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum quisquam debitis, repudiandae nemo eligendi.</div>             
-                </div>
-                <a href="#" class="project_button">View Project</a>
-            </div>
+      </section>
+
+      <section class="work section-shell" id="work" aria-labelledby="work-title">
+        <div class="work-heading reveal">
+          <div><span class="section-index">02 <span>/</span> PROJECTS</span><h2 id="work-title">The Spotlight of<br /><em>My Finest Work</em></h2></div>
         </div>
-    </section>
-    <section class="awards" id="awards">
-        <div class="awards-title">Awards & Certifications</div>
-        <div class="awards-certifications">
-            <ul>
-                <li class="awards-switch" data-target="awards">Honours and Awards</li>
-                <li class="awards-switch" data-target="certifications">Licences and Certifications</li>
-            </ul>
+        <div class="project-grid">
+          <article class="project-card project-feature reveal">
+            <div class="project-body"><div class="project-category">DESIGN & PROTOTYPING <span>2024</span></div><div class="project-main"><div><h3>Prosthetic Arm Prototype</h3><p>At UNB, our four-person team set out to design and build a prosthetic arm around a patient's particular needs. The challenge was about more than making a mechanism move: it meant translating a human requirement into a physical engineering solution.</p><p class="project-detail">It was an early opportunity to work through the full team design process - balancing ideas, feasibility, assembly, and a prototype that could be demonstrated.</p></div></div><div class="project-tags"><span>Human-centred design</span><span>Team collaboration</span><span>Physical prototyping</span></div></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-body"><div class="project-category">AUTOMATION & TEAMWORK <span>2022 - 2023</span></div><div class="project-main"><div><h3>Autonomous Piano</h3><p>For a Yamaha Music showcase at FCS Innovation Academy, our three-person team built a robot that could play a piano autonomously.</p><p class="project-detail">My role centred on keeping the build moving: planning and preparation, coordinating assembly and tasks, and working through problems when the design needed adjusting.</p></div></div><div class="project-tags"><span>Robotics</span><span>Project coordination</span><span>Troubleshooting</span></div></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-body"><div class="project-category">ELECTRO-MECHANICAL DESIGN <span>2026</span></div><div class="project-main"><div><h3>Guitar Distortion Pedal</h3><p>Designing a RAT-inspired guitar distortion pedal in EasyEDA, from its 9 V power and bias network through an OP07 amplifier, adjustable gain, diode clipping, tone shaping, and output level.</p><p class="project-detail">Circuit simulations helped me examine how the gain and clipping stages change the signal. On the mechanical side, I'm applying CAD to the enclosure, control layout, and practical assembly. The full circuit and physical build are still in development.</p></div></div><div class="project-tags"><span>Analog circuits</span><span>EasyEDA simulation</span><span>Mechanical CAD</span><span>Audio electronics</span></div></div>
+          </article>
         </div>
-        <div class="timeline">
-            <div class="timeline_container left-container">
-                <img src="images/AHS-logo.png" alt="">
-                <div class="timeline_text-box">
-                    <h2>R.I.C.H Raider award at Alpharetta High School</h2>
-                    <small>Issued by Sandra Papp at Alpharetta High School · Jan 2021</small>
-                    <p>Awarded with the (R)espect (I)ntegrity (C)omitted (H)ardworking Raider title for teaching the basic functionalities and use of Microsoft Word and PowerPoint to Hispanic students at the Alpharetta High-School.</p>
-                    <span class="left-container-arrow"></span>
-                </div>
-            </div>
-            <div class="timeline_container right-container">
-                <img src="images/IA-logo.png" alt="">
-                <div class="timeline_text-box">
-                    <h2>Innovation Academy Honour Roll Student</h2>
-                    <small>Issued by Innovation Academy · Dec 2021</small>
-                    <p>Finished the semester with straight As on my report card (10th grade)</p>
-                    <span class="right-container-arrow"></span>
-                </div>
-            </div>
-            <div class="timeline_container left-container">
-                <img src="images/FCS-logo.png" alt="">
-                <div class="timeline_text-box">
-                    <h2>Fulton Forum French Gold Metal</h2>
-                    <small>Issued by Fulton Forum · Jan 2022</small>
-                    <p>Awarded for superior demonstration and application of my French during a Fulton (County) Forum competition.</p>
-                    <span class="left-container-arrow"></span>
-                </div>
-            </div>
-            <div class="timeline_container right-container">
-                <img src="images/FIRST-logo.png" alt="">
-                <div class="timeline_text-box">
-                    <h2>PCH District "Charged Up" First Robotics Competition 2023 Finalist</h2>
-                    <small>Issued by First Robotics · Mar 2023</small>
-                    <p>PCH District "Charged Up" First Robotics Competition 2023 Finalist Medal. As part of the Projectiles Department of Team 8866 Innovation Academy Robotics, our alliance made it to the finals allowing us to compete in the upcoming state championship.</p>
-                    <span class="right-container-arrow"></span>
-                </div>
-            </div>
+      </section>
+
+      <section class="leadership section-shell" id="leadership" aria-labelledby="leadership-title">
+        <div class="leadership-heading reveal"><span class="section-index">03 <span>/</span> LEADERSHIP</span><h2 id="leadership-title">Club governance<br /><em>&amp; development.</em></h2><p>At UNB Fencing, I established executive operating documents and founded accessibility and developmental-tournament committees.</p></div>
+        <div class="leadership-feature reveal">
+          <div class="leadership-overview"><span class="micro-label">UNB FENCING CLUB · 2026 - PRESENT</span><h3>Student Executive<br /><em>Chair.</em></h3><p>I developed a student-executive model and helped put it into practice, coordinating five officer portfolios and defining how students can lead meaningful club work with clear responsibilities and continuity.</p><p>The goal is a sustainable organization: decisions are documented, officers can own their areas, and the next generation doesn't have to rebuild everything from scratch.</p><span class="leadership-overview-foot">GOVERNANCE / ACCESSIBILITY / MEMBER DEVELOPMENT</span></div>
+          <div class="leadership-numbers" aria-label="Executive leadership at a glance"><div><strong>05</strong><span>Officer portfolios coordinated</span></div><div><strong>02</strong><span>Committees founded</span></div><div><strong>03</strong><span>Governance and operating documents adopted</span></div><div><strong>02</strong><span>UNB clubs using the executive model</span></div></div>
         </div>
-        <div class="certifications">
-            <div class="certifications_container">
-                <div class="certifications_box">
-                    <div class="certifications_title">OSHA 10-Hour General Industry (Manufacturing) Course</div>
-                    <div class="certifications_date">Issued by CareerSafe · Feb 2023</div>
-                    <div class="certifications_id">Credential ID 14-702497273</div>
-                    <a href="https://sendeyo.com/en/8fdc23af19" target="_blank" class="show_credential">🔗 Show Credential</a>
-                </div>
-            </div>
+        <div class="leadership-stories">
+          <article class="story-card reveal"><div class="story-top"><span>01 / STRUCTURE</span></div><h3>A student executive with real ownership.</h3><p>I wrote the Student Executive Structure to define the Chair's coordination role, decision rights, meetings, and recordkeeping. The five officer portfolios cover Public Relations, Communications, Resources, Operations & Logistics, and Competition & Development.</p><p>It also defines officer terms, succession, mentorship, and living handover documents. Designed for UNB Fencing, the model was also taken up by the UNB Robotics Club.</p></article>
+          <article class="story-card reveal"><div class="story-top"><span>02 / ACCESS</span></div><h3>Accessibility as an ongoing responsibility.</h3><p>I founded the Accessibility Committee and developed its operational guide so accessibility work has a defined place in the club, rather than depending on occasional individual effort.</p><p>The committee is part of a wider approach to making participation and organization more intentional.</p></article>
+          <article class="story-card reveal"><div class="story-top"><span>03 / DEVELOPMENT</span></div><h3>Making room to learn by doing.</h3><p>I founded the Developmental Tournament Committee to prepare internal fencing competitions that give members chances to compete and learn refereeing and tournament operations.</p><p>Its operating model gives volunteers an equal voice on day-to-day event decisions while keeping strategic responsibility with the Chair. The tournaments are a developing initiative, not a completed event claim.</p></article>
         </div>
-    </section>
-    <section class="contact" id="contact">
-        <div class="contact-container">
-            <div class="contact-row">
-                <div class="contact-left">
-                    <div class="contact-title">Contact Me</div>
-                    <p><i class="fa-solid fa-paper-plane"></i> nicolas.maroto@outlook.com</p>
-                    <p><i class="fa-solid fa-phone"></i> +1 (506) 897-4501</p>
-                    <div class="contact-icons">
-                        <a href="https://www.linkedin.com/in/nicolas-maroto-b35809267/" target="blank"><i class="fa fa-linkedin"></i></a>
-                        <a href="mailto:nicolasmarotok@gmail.com" target="blank"><i class="fa fa-google"></i></a>
-                    </div>
-                    <a href="images/Resume.pdf" download class="resume">Download Resume</a>
-                </div>
-                <div class="contact-right">
-                    <form action="" name="submit-to-google-sheet">
-                        <input type="text" name="Name" placeholder="Your Name" required>
-                        <input type="email" name="E-Mail" placeholder="Your E-Mail" required>
-                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
-                        <button type="submit" class="submit-button">Submit</button>
-                    </form>
-                </div>
-            </div>
+      </section>
+
+      <section class="recognition section-shell" id="certifications" aria-labelledby="certifications-title">
+        <div class="recognition-heading reveal"><span class="section-index">04 <span>/</span> CERTIFICATIONS</span><h2 id="certifications-title">Certifications<span class="heading-stop">.</span></h2></div>
+        <div class="recognition-list reveal">
+          <div class="recognition-row">
+            <span class="recognition-year">2023</span>
+            <div><h3>OSHA 10-Hour General Industry</h3><p>Manufacturing · CareerSafe · Issued February 2023</p></div>
+            <span class="recognition-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4.5 6v5.2c0 4.6 3.1 8.2 7.5 9.8 4.4-1.6 7.5-5.2 7.5-9.8V6L12 3Z"/><path d="m8.5 12 2.4 2.5 4.8-5"/></svg></span>
+          </div>
         </div>
-    </section>
-    <! -- Made by Nicolas Maroto -->
-    <script src="portfolio.js"></script>
-    <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbwJgUgRcNrTtv6bCUffQyU57jzQjod5RJMBH6HKxfz9RU49PHYzxW3jJqzgAiT8AgWD/exec'
-        const form = document.forms['submit-to-google-sheet']
-      
-        form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => console.log('Success!', response))
-            .catch(error => console.error('Error!', error.message))
-        })
-    </script>
-    <script src="https://kit.fontawesome.com/085449ab5d.js" crossorigin="anonymous"></script>
-</body>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell"><a class="back-to-top" href="#home">Back to top <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5m-5 5 5-5 5 5"/></svg></a></footer>
+  </body>
 </html>
